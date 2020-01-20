@@ -9,7 +9,7 @@ import keras
 import tensorflow as tf
 
 TEST_DIR = '/data/test'
-RESULT_PATH = '/src/output.csv'
+RESULT_PATH = '/src/output_phase2.csv'
 OUTPUT_PATH = '/data/output/output.csv'
 CKPT_DIR = '/data/volume/model'
 HIST_DIR = '/data/volume/history'
