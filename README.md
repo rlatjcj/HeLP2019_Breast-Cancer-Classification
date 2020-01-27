@@ -2,15 +2,16 @@
 
 ## 코드 설명
 ```
-├── Dockfile              : docker image 생성을 위한 파일
+├── Dockfile                    : docker image 생성을 위한 파일
 └── src
-    ├── get_major_axis.py : major axis 길이 구하는 코드
-    ├── train.py          : 예시 train 코드
-    ├── inference.py      : 예시 inference 코드
-    ├── train.sh          : train.py 실행하는 shell script
-    ├── inference.sh      : inference.py 실행하는 shell script
-    ├── requirements.txt  : image 내에서 pip package install
-    └── output.csv        : phase 1 testset list
+    ├── get_major_axis.py       : major axis 길이 구하는 코드
+    ├── train.py                : 예시 train 코드
+    ├── inference.py            : 예시 inference 코드
+    ├── train.sh                : train.py 실행하는 shell script
+    ├── inference.sh            : inference.py 실행하는 shell script
+    ├── requirements.txt        : image 내에서 pip package install
+    ├── output_phase1.csv       : phase 1 testset list
+    └── output_phase2.csv       : phase 2 testset list
     
 ```
 - `train.py`, `inference.py`는 참고하여 수정
